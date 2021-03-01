@@ -33,6 +33,3 @@ FROM employees e
 WHERE dm.to_date = '9999-01-01' AND s.to_date = '9999-01-01'
 ORDER BY d.dept_name;
 
-
-
-
