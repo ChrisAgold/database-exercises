@@ -36,10 +36,10 @@ INSERT INTO users (name, email, role_id) VALUES
 ('long', 'long@example.com', 2),
 ('tim', 'tim@example.com', 2);
 
-# DESCRIBE users;
-# DESCRIBE roles;
-# SELECT * FROM users;
-# SELECT * FROM roles;
+-- # DESCRIBE users;
+-- # DESCRIBE roles;
+-- # SELECT * FROM users;
+-- # SELECT * FROM roles;
 
 SELECT users.name as user_name, roles.name as role_name
 FROM users
